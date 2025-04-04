@@ -1,10 +1,10 @@
 
 import time
-from sistema_puerta_perruna import SistemaPuertaPerruna
+from sistema_puerta import SistemaPuerta
 
 
 def main():
-    sistema = SistemaPuertaPerruna()
+    sistema = SistemaPuerta()
 
     print("Bobby ladra dos veces para salir...")
     sistema.procesar_ladrido("Guau Guau")

@@ -3,7 +3,7 @@ import time
 from sensores import Sensores
 from actor_puerta import ActuadorPuerta
 
-class SistemaPuertaPerruna:
+class SistemaPuerta:
     def __init__(self):
         self.sensores = Sensores()
         self.actuador = ActuadorPuerta()
@@ -24,5 +24,5 @@ class SistemaPuertaPerruna:
 
 # Prueba rápida
 if __name__ == "__main__":
-    sistema = SistemaPuertaPerruna()
+    sistema = SistemaPuerta()
     sistema.procesar_ladrido("Guau Guau")
